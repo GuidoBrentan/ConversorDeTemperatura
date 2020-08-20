@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     params.putDouble("fahrenheit", fahrenheit);
                     params.putDouble("kelvin", kelvin);
 
+                    intent.putExtras(params);
                     startActivity(intent);
                 }
             }
